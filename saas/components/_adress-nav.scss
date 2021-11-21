@@ -1,0 +1,61 @@
+.adress-nav-block {
+  padding: 93px;
+}
+
+.adress-nav {
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+    @media screen and (min-width:768px) {
+        display: block;
+        margin-left: 60px;
+    }
+    @media screen and (min-width:1200px) {
+        display: flex;
+        margin-left: 305px;
+    }
+    display: flex;
+    margin-left: auto;
+
+    &__list {
+        
+        @media screen and (min-width:768px) {
+            width: 165px;
+            height: 14px;
+            margin-top: 10px;
+            padding-bottom: 0px;
+        }
+        @media screen and (min-width:1200px) {
+           padding-bottom: 32px;
+        }
+    }
+  &__list:not(:last-child) {
+    margin-right: 0px;
+  }
+  &__tel-icon {
+    margin-right: 10px;
+  }
+  &__mail-icon {
+    margin-right: 10px;
+  }
+  &__mail {
+    margin-left: 50px;
+  }
+
+  &__link {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.02em;
+    color: var(--additional-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--additional-color);
+  }
+  &__link:hover,
+  &__link:focus {
+    fill: var(--hover-color);
+    color: var(--hover-color);
+  }
+}

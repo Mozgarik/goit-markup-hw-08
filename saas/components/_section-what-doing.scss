@@ -1,0 +1,26 @@
+ .section-what-doing {
+   @media screen and (min-width:1200px) {
+     padding-top: 94px;
+   padding-bottom: 94px;
+   }
+   &__list {
+     margin-top: 50px;
+     display: flex;
+   }
+   &__item:not(:last-child) {
+     margin-right: 30px;
+   }
+   &__item {
+     position: relative;
+   }
+   & .section-tittle {
+     text-align: center;
+   }
+   @media screen and (max-width:1200px) {
+     display: none;
+   }
+ }
+
+
+
+ 

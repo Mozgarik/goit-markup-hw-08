@@ -1,0 +1,233 @@
+
+footer .conteiner {
+  @media screen and (min-width:1200px) {
+    display: flex;
+    align-items: baseline;
+    padding: 0px;
+  }
+  
+}
+
+.footer-join {
+  @media screen and (min-width:1200px) {
+     margin-left: 70px;
+  }
+ 
+
+  &__discription {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+  }
+  &__social-link {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__social-link:hover,
+  &__social-link:focus {
+    background-color: var(--hover-color);
+  }
+  &__social-icon {
+    fill: #ffffff;
+  }
+  &__social-link:hover .social-icon,
+  &__social-link:focus .social-icon {
+    fill: #ffffff;
+  }
+  &__master-social {
+    display: flex;
+    justify-content: center;
+  }
+  &__social-item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+  }
+}
+
+.footer__mobile-conteiner {
+  @media screen and (max-width:768px) {
+    display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+  text-align: center;
+  width: 216px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  @media screen and (min-width:768px) {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+}
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #2f303a;
+
+  & ul {
+    margin-top: 20px;
+  }
+  &-contact__item {
+    margin-top: 9px;
+  }
+  .logo-studio {
+    color: var(--brand-color);
+  }
+  &-contact__link {
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &-contact__link-address {
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+  }
+  &-contact__list {
+    margin-bottom: 60px;
+  }
+}
+.footer-form {
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width:1200px) {
+    margin-left: 93px;
+  }
+  &__field {
+    width: 450px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (min-width:1200px) {
+      width: 358px;
+      height: 50px;
+    }
+  }
+
+  &__send {
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    @media screen and (min-width:1200px) {
+      display: flex;
+    }
+
+  }
+  &__button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--brand-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    @media screen and (min-width:1200px) {
+      margin-top: 0px;
+      margin-left: 12px;
+    }
+  }
+  &-input::placeholder {
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .button-text {
+    text-align: center;
+    width: 109px;
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+  }
+  &__input {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    width: 450px;;
+    height: 50px;
+    background-color: #2f303a;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--brand-color);
+    @media screen and (min-width:1200px) {
+    width: 358px;
+    height: 50px;
+    }
+  }
+  &__input:focus {
+    border-color: var(--hover-color);
+    outline: none;
+  }
+  &__discription {
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+@media screen and (max-width:1200px) {
+      text-align: center;
+    }
+
+
+
+  }
+  &__svg {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    fill: #ffffff;
+  }
+}
