@@ -339,7 +339,7 @@ ul {
 @media screen and (min-width: 1200px) {
   .section-quality {
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 0px;
   }
 }
 
@@ -506,7 +506,7 @@ ul {
 @media screen and (min-width: 1200px) {
   .section-quality {
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 0px;
   }
 }
 
