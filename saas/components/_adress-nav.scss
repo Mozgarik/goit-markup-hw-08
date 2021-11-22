@@ -13,24 +13,25 @@
     @media screen and (min-width:1200px) {
         display: flex;
         margin-left: 305px;
+     
     }
     display: flex;
     margin-left: auto;
 
     &__list {
         
-        @media screen and (min-width:768px) {
+        @media screen and (min-width:768px), (max-width:1199px) {
             width: 165px;
             height: 14px;
             margin-top: 10px;
             padding-bottom: 0px;
         }
         @media screen and (min-width:1200px) {
-           padding-bottom: 32px;
+           margin-top: 0px;
         }
     }
   &__list:not(:last-child) {
-    margin-right: 0px;
+    margin-right: 8px;
   }
   &__tel-icon {
     margin-right: 10px;
@@ -39,10 +40,12 @@
     margin-right: 10px;
   }
   &__mail {
-    margin-left: 50px;
+    margin-left: 30px;
   }
 
   &__link {
+    display: inline-flex;
+    align-items: center;
     font-family: Roboto;
     font-weight: 500;
     font-size: 14px;

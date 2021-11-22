@@ -1,5 +1,7 @@
 
 footer .conteiner {
+  padding-top: 0px;
+  padding-bottom: 0px;
   @media screen and (min-width:1200px) {
     display: flex;
     align-items: baseline;
@@ -83,7 +85,9 @@ footer .conteiner {
   padding-top: 60px;
   padding-bottom: 60px;
   background: #2f303a;
-
+  @media screen and (min-width:1200px) {
+    padding-bottom: 0px;
+  }
   & ul {
     margin-top: 20px;
   }
@@ -118,10 +122,13 @@ footer .conteiner {
     margin-left: 93px;
   }
   &__field {
-    width: 100%;
+    width: 450px;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
+    @media screen and (max-width:768px) {
+      width: 100%;
+    }
     @media screen and (min-width:1200px) {
       width: 358px;
       height: 50px;
@@ -187,7 +194,7 @@ footer .conteiner {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 16px;
-    width: 100%;
+    width: 450px;
     height: 50px;
     background-color: #2f303a;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -196,7 +203,9 @@ footer .conteiner {
     border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--brand-color);
-    
+    @media screen and (max-width:768px) {
+      width: 100%;
+    }
     @media screen and (min-width:1200px) {
     width: 358px;
     height: 50px;
