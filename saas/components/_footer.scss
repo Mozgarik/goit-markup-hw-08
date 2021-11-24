@@ -10,11 +10,22 @@ footer .conteiner {
   
 }
 
+.footer-contact {
+  @media screen and (max-width:1200px) {
+   text-align: center; 
+  }
+  
+}
+
+
+
+
 .footer-join {
   @media screen and (min-width:1200px) {
      margin-left: 70px;
+     
   }
- 
+
 
   &__discription {
     text-align: center;
@@ -26,6 +37,9 @@ footer .conteiner {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
+    @media screen and (min-width:1200px) {
+      text-align: start;
+    }
     
   }
   &__social-link {

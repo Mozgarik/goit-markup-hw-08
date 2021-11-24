@@ -10,7 +10,7 @@
 
   &__list {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     @media screen and (min-width:768px) {
@@ -19,7 +19,7 @@
       margin-top: 50px;
       width: 768px;
       margin-left: -30px;
-      margin-top: 30px;
+      margin-top: 0px;
    }
     @media screen and (min-width:1200px) {
       margin-top: 50px;
